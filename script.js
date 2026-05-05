@@ -8,6 +8,7 @@ menuBtn.addEventListener("click", () => {
   nav.classList.toggle("open");
 });
 
+
 // Cierra el menú al tocar un link (móvil)
 nav.querySelectorAll("a").forEach(a => {
   a.addEventListener("click", () => nav.classList.remove("open"));
